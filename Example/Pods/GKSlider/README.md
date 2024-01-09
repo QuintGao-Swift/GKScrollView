@@ -1,0 +1,29 @@
+# GKSlider
+
+[![CI Status](https://img.shields.io/travis/QuintGao/GKSlider.svg?style=flat)](https://travis-ci.org/QuintGao/GKSlider)
+[![Version](https://img.shields.io/cocoapods/v/GKSlider.svg?style=flat)](https://cocoapods.org/pods/GKSlider)
+[![License](https://img.shields.io/cocoapods/l/GKSlider.svg?style=flat)](https://cocoapods.org/pods/GKSlider)
+[![Platform](https://img.shields.io/cocoapods/p/GKSlider.svg?style=flat)](https://cocoapods.org/pods/GKSlider)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+GKSlider is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'GKSlider'
+```
+
+## Author
+
+QuintGao, 1094887059@qq.com
+
+## License
+
+GKSlider is available under the MIT license. See the LICENSE file for more info.

@@ -1,0 +1,6 @@
+framework module GKSlider {
+  umbrella header "GKSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}

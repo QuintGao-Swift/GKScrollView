@@ -1,0 +1,129 @@
+PODS:
+  - Alamofire (5.8.0)
+  - GKNavigationBarSwift (1.6.4)
+  - GKScrollView (0.1.0)
+  - GKSlider (1.0.0)
+  - HandyJSON (5.0.2)
+  - Kingfisher (6.3.1)
+  - Masonry (1.1.0)
+  - MJRefresh (3.7.5)
+  - RxSwift (6.6.0)
+  - SJBaseVideoPlayer (3.7.6):
+    - Masonry
+    - SJBaseVideoPlayer/AVPlayer (= 3.7.6)
+    - SJBaseVideoPlayer/Common (= 3.7.6)
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/AVPlayer (3.7.6):
+    - Masonry
+    - SJBaseVideoPlayer/Common
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/Common (3.7.6):
+    - Masonry
+    - SJBaseVideoPlayer/ResourceLoader
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/ResourceLoader (3.7.6):
+    - Masonry
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJUIKit/AttributesFactory (0.0.0.59):
+    - SJUIKit/AttributesFactory/Deprecated (= 0.0.0.59)
+    - SJUIKit/AttributesFactory/UIKitText (= 0.0.0.59)
+  - SJUIKit/AttributesFactory/Deprecated (0.0.0.59)
+  - SJUIKit/AttributesFactory/UIKitText (0.0.0.59)
+  - SJUIKit/ObserverHelper (0.0.0.59)
+  - SJUIKit/Queues (0.0.0.59)
+  - SJUIKit/SQLite3 (0.0.0.59):
+    - SJUIKit/SQLite3/Core (= 0.0.0.59)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.59)
+    - YYModel
+  - SJUIKit/SQLite3/Core (0.0.0.59):
+    - SJUIKit/SQLite3/Protocol
+    - YYModel
+  - SJUIKit/SQLite3/Protocol (0.0.0.59):
+    - YYModel
+  - SJVideoPlayer (3.4.3):
+    - SJBaseVideoPlayer (>= 3.7.5)
+    - SJVideoPlayer/Common (= 3.4.3)
+    - SJVideoPlayer/ControlLayers (= 3.4.3)
+    - SJVideoPlayer/ResourceLoader (= 3.4.3)
+  - SJVideoPlayer/Common (3.4.3):
+    - Masonry
+    - SJBaseVideoPlayer (>= 3.7.5)
+    - SJUIKit/AttributesFactory
+    - SJVideoPlayer/ResourceLoader
+  - SJVideoPlayer/ControlLayers (3.4.3):
+    - SJBaseVideoPlayer (>= 3.7.5)
+    - SJVideoPlayer/Common
+  - SJVideoPlayer/ResourceLoader (3.4.3):
+    - SJBaseVideoPlayer (>= 3.7.5)
+  - SnapKit (5.6.0)
+  - YYModel (1.0.4)
+  - ZFPlayer/AVPlayer (4.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - GKNavigationBarSwift
+  - GKScrollView (from `../`)
+  - GKSlider
+  - HandyJSON
+  - Kingfisher
+  - MJRefresh
+  - RxSwift
+  - SJVideoPlayer
+  - SnapKit
+  - ZFPlayer/AVPlayer
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GKNavigationBarSwift
+    - GKSlider
+    - HandyJSON
+    - Kingfisher
+    - Masonry
+    - MJRefresh
+    - RxSwift
+    - SJBaseVideoPlayer
+    - SJUIKit
+    - SJVideoPlayer
+    - SnapKit
+    - YYModel
+    - ZFPlayer
+
+EXTERNAL SOURCES:
+  GKScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  GKNavigationBarSwift: 50ccb0c404b2b13aaa015343083938a15805f89d
+  GKScrollView: 09f7585ec1e90561481b6f6032ab62b1f1624b93
+  GKSlider: 9c6c10089a2d1b39a92a701f099b662f6fd2c126
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  SJBaseVideoPlayer: f15debaa8c1e27b63bdefc8caeec515e9c71d079
+  SJUIKit: a40111941e408cc17d4c1c23495aa92999e814b0
+  SJVideoPlayer: 4f09814f58522e0975cb2dccfda925f6c8643467
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZFPlayer: 5cf39e8d9f0c2394a014b0db4767b5b5a6bffe13
+
+PODFILE CHECKSUM: 3fe382e03d2b4d4aa8f0e9cdbeee9f883ec4b8d3
+
+COCOAPODS: 1.12.1

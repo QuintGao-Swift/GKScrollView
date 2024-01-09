@@ -1,0 +1,6 @@
+framework module GKScrollView {
+  umbrella header "GKScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}
