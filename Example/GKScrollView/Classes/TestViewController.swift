@@ -19,7 +19,8 @@ class TestViewController: UIViewController {
         scrollView.register(cellClass: TestCell1.self, forCellReuseIdentifier: "TestCell1")
         scrollView.register(cellClass: TestCell2.self, forCellReuseIdentifier: "TestCell2")
         scrollView.register(cellClass: TestCell3.self, forCellReuseIdentifier: "TestCell3")
-        scrollView.register(cellClass: TestCell4.self, forCellReuseIdentifier: "TestCell4")
+//        scrollView.register(cellClass: TestCell4.self, forCellReuseIdentifier: "TestCell4")
+        scrollView.register(nib: UINib.init(nibName: "TestCell4", bundle: nil), forCellReuseIdentifier: "TestCell4")
         return scrollView
     }()
     
@@ -77,8 +78,6 @@ class TestViewController: UIViewController {
         initUI()
         setupRefresh()
         requestData()
-        
-        let cell = UITableViewCell()
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
