@@ -1010,6 +1010,7 @@ extension GKScrollView: UIScrollViewDelegate {
         
         // 下滑到第一个
         if index == 0 && offsetY <= viewH {
+            changeIndex = 0
             return
         }
         
