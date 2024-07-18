@@ -964,19 +964,19 @@ open class GKScrollView: UIScrollView {
         var newOffsetY = offsetY
         let viewH = viewHeight
         
-        var diff = fabs(offsetY - 0)
+        var diff = abs(offsetY - 0)
         if diff > 0 && diff < 1 {
             newOffsetY = 0
             updateContentOffset(offset: .zero)
         }
         
-        diff = fabs(offsetY - viewH)
+        diff = abs(offsetY - viewH)
         if diff > 0 && diff < 1 {
             newOffsetY = viewH
             updateContentOffset(offset: CGPoint(x: 0, y: viewH))
         }
         
-        diff = fabs(offsetY - 2 * viewH)
+        diff = abs(offsetY - 2 * viewH)
         if diff > 0 && diff < 1 {
             newOffsetY = 2 * viewH
             updateContentOffset(offset: CGPoint(x: 0, y: 2 * viewH))

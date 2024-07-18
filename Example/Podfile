@@ -30,8 +30,14 @@ post_install do |installer|
   end
   
   installer.pods_project.targets.each do |target|
-      target.build_configurations.each do |config|
-          config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
-      end
+    target.build_configurations.each do |config|
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+    end
+  end
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      # 处理 M1 芯片上不支持 模拟器 运行问题：不仅仅编译活跃的架构，反之就是 i386、x86_64、arm64 等架构都编译。
+      config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+    end
   end
 end

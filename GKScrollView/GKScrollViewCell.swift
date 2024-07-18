@@ -9,24 +9,24 @@ import UIKit
 
 open class GKScrollViewCell: UIView {
     
+    @IBInspectable open private(set) var reuseIdentifier: String?
+    
     public init() {
-        super.init(frame: CGRect(x: 0, y: 0, width: 320, height: 44))
+        super.init(frame: UIScreen.main.bounds)
     }
     
     public override init(frame: CGRect) {
-        super.init(frame: CGRect(x: 0, y: 0, width: 320, height: 44))
+        super.init(frame: UIScreen.main.bounds)
     }
     
     public required init(reuseIdentifier: String?) {
-        super.init(frame: CGRect(x: 0, y: 0, width: 320, height: 44))
+        super.init(frame: UIScreen.main.bounds)
         self.reuseIdentifier = reuseIdentifier
     }
     
     public required init?(coder: NSCoder) {
         super.init(coder: coder)
     }
-    
-    @IBInspectable open private(set) var reuseIdentifier: String?
     
     open func prepareForReuse() {
         
