@@ -1,0 +1,165 @@
+PODS:
+  - Alamofire (5.9.1)
+  - Booming (1.1.4):
+    - Booming/Core (= 1.1.4)
+    - Booming/Plugins (= 1.1.4)
+  - Booming/Core (1.1.4):
+    - Moya
+  - Booming/Plugins (1.1.4):
+    - Booming/Core
+  - GKNavigationBarSwift (1.6.5)
+  - GKPopupController (1.0.0)
+  - GKScrollView (1.0.0)
+  - GKSlider (1.0.2)
+  - HandyJSON (5.0.2)
+  - Kingfisher (7.12.0)
+  - Masonry (1.1.0)
+  - MJRefresh (3.7.9)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - "NSObject+Rx (5.2.2)":
+    - RxSwift (~> 6.2)
+  - RxNetworks/Core (1.0.2):
+    - Booming/Core
+  - RxNetworks/HandyJSON (1.0.2):
+    - HandyJSON
+  - RxNetworks/RxSwift (1.0.2):
+    - RxNetworks/Core
+    - RxSwift
+  - RxSwift (6.7.1)
+  - SJBaseVideoPlayer (3.7.7.1):
+    - Masonry
+    - SJBaseVideoPlayer/AVPlayer (= 3.7.7.1)
+    - SJBaseVideoPlayer/Common (= 3.7.7.1)
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/AVPlayer (3.7.7.1):
+    - Masonry
+    - SJBaseVideoPlayer/Common
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/Common (3.7.7.1):
+    - Masonry
+    - SJBaseVideoPlayer/ResourceLoader
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/ResourceLoader (3.7.7.1):
+    - Masonry
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJUIKit/AttributesFactory (0.0.0.59):
+    - SJUIKit/AttributesFactory/Deprecated (= 0.0.0.59)
+    - SJUIKit/AttributesFactory/UIKitText (= 0.0.0.59)
+  - SJUIKit/AttributesFactory/Deprecated (0.0.0.59)
+  - SJUIKit/AttributesFactory/UIKitText (0.0.0.59)
+  - SJUIKit/ObserverHelper (0.0.0.59)
+  - SJUIKit/Queues (0.0.0.59)
+  - SJUIKit/SQLite3 (0.0.0.59):
+    - SJUIKit/SQLite3/Core (= 0.0.0.59)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.59)
+    - YYModel
+  - SJUIKit/SQLite3/Core (0.0.0.59):
+    - SJUIKit/SQLite3/Protocol
+    - YYModel
+  - SJUIKit/SQLite3/Protocol (0.0.0.59):
+    - YYModel
+  - SJVideoPlayer (3.4.3):
+    - SJBaseVideoPlayer (>= 3.7.5)
+    - SJVideoPlayer/Common (= 3.4.3)
+    - SJVideoPlayer/ControlLayers (= 3.4.3)
+    - SJVideoPlayer/ResourceLoader (= 3.4.3)
+  - SJVideoPlayer/Common (3.4.3):
+    - Masonry
+    - SJBaseVideoPlayer (>= 3.7.5)
+    - SJUIKit/AttributesFactory
+    - SJVideoPlayer/ResourceLoader
+  - SJVideoPlayer/ControlLayers (3.4.3):
+    - SJBaseVideoPlayer (>= 3.7.5)
+    - SJVideoPlayer/Common
+  - SJVideoPlayer/ResourceLoader (3.4.3):
+    - SJBaseVideoPlayer (>= 3.7.5)
+  - SnapKit (5.7.1)
+  - YYModel (1.0.4)
+  - ZFPlayer/AVPlayer (4.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Booming
+  - GKNavigationBarSwift
+  - GKPopupController
+  - GKScrollView (from `../`)
+  - GKSlider
+  - HandyJSON
+  - Kingfisher
+  - MJRefresh
+  - "NSObject+Rx"
+  - RxNetworks/HandyJSON
+  - RxNetworks/RxSwift
+  - RxSwift
+  - SJVideoPlayer
+  - SnapKit
+  - ZFPlayer/AVPlayer
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Booming
+    - GKNavigationBarSwift
+    - GKPopupController
+    - GKSlider
+    - HandyJSON
+    - Kingfisher
+    - Masonry
+    - MJRefresh
+    - Moya
+    - "NSObject+Rx"
+    - RxNetworks
+    - RxSwift
+    - SJBaseVideoPlayer
+    - SJUIKit
+    - SJVideoPlayer
+    - SnapKit
+    - YYModel
+    - ZFPlayer
+
+EXTERNAL SOURCES:
+  GKScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  Booming: f3e6cbcd95905a5dfb0658eeddb0ff88e7d4affe
+  GKNavigationBarSwift: c12f2123221855f88aaa4432a2cfee513fa0a42d
+  GKPopupController: 5eb7f176398060029bf9123907e2286d689f80dc
+  GKScrollView: 7442a0e46b9adc61f032f436843249e4644a03a6
+  GKSlider: 86f607a2ae0ed3c58c5d067335a75ba3634d6e56
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  "NSObject+Rx": 61cf1f7306a73dcef8b36649198af0813ec18dfd
+  RxNetworks: e634a349d7a8db631415961521e28a13f98216fb
+  RxSwift: b9a93a26031785159e11abd40d1a55bcb8057e52
+  SJBaseVideoPlayer: b3122de12225b27b71bd9a8a1f08f4dcf2f4e5ec
+  SJUIKit: a40111941e408cc17d4c1c23495aa92999e814b0
+  SJVideoPlayer: 4f09814f58522e0975cb2dccfda925f6c8643467
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZFPlayer: 5cf39e8d9f0c2394a014b0db4767b5b5a6bffe13
+
+PODFILE CHECKSUM: 7decb83d8f316fdf8f25acc9e814de6ba3d9549d
+
+COCOAPODS: 1.15.2

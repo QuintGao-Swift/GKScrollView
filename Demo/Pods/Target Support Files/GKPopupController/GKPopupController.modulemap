@@ -1,0 +1,6 @@
+framework module GKPopupController {
+  umbrella header "GKPopupController-umbrella.h"
+
+  export *
+  module * { export * }
+}
